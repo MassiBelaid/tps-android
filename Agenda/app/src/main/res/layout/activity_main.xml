@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textTitre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voici vos événements"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textTitre"
+        android:text="Cliquez sur l'événement pour le suprimer"
+        android:layout_centerInParent="true"
+        />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_below="@id/textInfo"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/buttonAjouter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listView"
+        android:layout_marginTop="20dp"
+        android:text="Ajouter des événements"/>
+
+</RelativeLayout>

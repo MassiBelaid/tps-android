@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AjoutActivity">
+
+    <TextView
+        android:id="@+id/textTitre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Ajouter un événement a votre agenda"
+        android:layout_centerInParent="true"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:textStyle="italic|bold"/>
+
+    <Button
+        android:id="@+id/buttonDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textTitre"
+        android:layout_centerInParent="true"
+        android:text="Cliquer pour ajouter la date"
+        android:layout_marginTop="40dp"
+        android:background="@color/boutonDate"
+        android:textColor="@color/textDate"
+        android:layout_marginLeft="100dp"
+        android:padding="20dp"/>
+
+    <EditText
+        android:layout_margin="25dp"
+        android:id="@+id/editEven"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@id/buttonDate"
+        android:hint="CLiquez pour ajouter l'événement"
+        android:padding="45dp"/>
+
+    <Button
+        android:id="@+id/idAjouter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editEven"
+        android:layout_margin="15dp"
+        android:text="AJOUTER"/>
+</RelativeLayout>

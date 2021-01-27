@@ -1,0 +1,6 @@
+Projet Contenant le code réponse pour les exercices 3, 4, 5, 6, et 7 (code java, layout, et toutes les ressources, manifest)
+
+pour voir le rendu de l'interface programatique (En java) changer dans le manifest :
+	mettre la balise <intent-filter> dans l'activité withJ	ava, et l'enlever de celle withXML
+
+(le reste de des exercices est implementé sur l'activité en xml)

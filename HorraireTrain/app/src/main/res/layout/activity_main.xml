@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textDepart"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Ville de départ "
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+         />
+    <AutoCompleteTextView
+        android:id="@+id/editDepart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textDepart"
+        android:completionThreshold="1"
+        android:hint="votre départ"/>
+
+    <TextView
+        android:id="@+id/textArrive"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editDepart"
+        android:layout_marginTop="10dp"
+        android:text="Ville d'arrivée "
+        android:textSize="20sp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/edArrive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textArrive"
+        android:layout_below="@+id/editDepart"
+        android:completionThreshold="1"
+        android:hint="votre destination"/>
+
+    <Button
+        android:id="@+id/bValider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edArrive"
+        android:text="Chercher voyage"
+        android:layout_marginTop="20dp"/>
+    <ListView
+        android:id="@+id/sHoraires"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/bValider"/>
+
+</RelativeLayout>

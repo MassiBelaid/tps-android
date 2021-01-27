@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">VueAvecXML</string>
+    <string name="tvNom">Nom : </string>
+    <string name="edNom">Votre nom </string>
+    <string name="tvPrenom">Prenom : </string>
+    <string name="edPrenom">Votre Prenom </string>
+    <string name="tvAge">Age :</string>
+    <string name="edAge">Ex : 18  </string>
+    <string name="tvCompetence">Domaine de competance : </string>
+    <string name="edCompetence">Ex : Java </string>
+    <string name="tvTel">Tel :  </string>
+    <string name="edTel">06 .. .. .. .. </string>
+</resources>

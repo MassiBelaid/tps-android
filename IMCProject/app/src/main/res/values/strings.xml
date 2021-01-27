@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">IMCProject</string>
+    <string name="resultat">"Vous devez cliquee sur le boutton Calculer l'IMC pour obtenir un resultat"</string>
+</resources>

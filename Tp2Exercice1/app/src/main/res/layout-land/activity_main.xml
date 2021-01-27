@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tNom"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="Nom : "
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/eNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tNom"/>
+
+    <TextView
+        android:id="@+id/tPrenom"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="Prenom : "
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tNom"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/ePrenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tPrenom"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/eNom"/>
+
+
+    <TextView
+        android:id="@+id/tTel"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="Tel : "
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tPrenom"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/eTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tTel"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:layout_below="@+id/ePrenom"/>
+
+
+    <TextView
+        android:id="@+id/textMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/remplirCHampCouleur"
+        android:text="Veuillez remplir tout les champs avant de valider"
+        android:layout_above="@+id/bValider"
+        android:gravity="center"
+        android:layout_marginBottom="50dp"
+        android:textSize="20dp"
+        android:visibility="invisible"
+        />
+
+
+    <Button
+        android:id="@+id/bValider"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Valider"
+        android:background="@color/bouttonColor"
+        android:textColor="@color/textButtonColor"
+        android:layout_alignParentBottom="true"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/textCompteur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textSize="100sp"
+        android:layout_toRightOf="@+id/bValider"
+        android:layout_marginLeft="120dp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

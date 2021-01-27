@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TP1Execice3</string>
+    <string name="tvNom">Last Name : </string>
+    <string name="edNom">Your last name </string>
+    <string name="tvPrenom">First Name : </string>
+    <string name="edPrenom">Your first name </string>
+    <string name="tvAge">Age :</string>
+    <string name="edAge">Ex : 18  </string>
+    <string name="tvCompetence">Areas of expertise : </string>
+    <string name="edCompetence">Ex : Java </string>
+    <string name="tvTel">Phone Number :  </string>
+    <string name="edTel">06 .. .. .. .. </string>
+    <string name="textButon">Confirm</string>
+
+    <string name="messageDialogBox">Are you sure ? </string>
+    <string name="titreDialogBox">Validation</string>
+    <string name="textPositif">Confirme</string>
+    <string name="textNegatif">Cancel</string>
+    <string name="textNeutre">Change color</string>
+    <string name="reponsePositive">You must complete all the fields</string>
+    <string name="reponseNegative">NOT SENDED</string>
+    <string name="textBOK">OK</string>
+    <string name="textRetour">Return</string>
+    <string name="tcall">Call the number</string>
+
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TP1Exercice3</string>
+    <string name="tvNom">Nom : </string>
+    <string name="edNom">Votre nom </string>
+    <string name="tvPrenom">Prenom : </string>
+    <string name="edPrenom">Votre Prenom </string>
+    <string name="tvAge">Age :</string>
+    <string name="edAge">Ex : 18  </string>
+    <string name="tvCompetence">Domaine de competance : </string>
+    <string name="edCompetence">Ex : Java </string>
+    <string name="tvTel">Tel :  </string>
+    <string name="edTel">06 .. .. .. .. </string>
+    <string name="textButon">Valider</string>
+
+    <string name="messageDialogBox">Etes vous sure de vouloir valider ?</string>
+    <string name="titreDialogBox">Validation</string>
+    <string name="textPositif">Confirmer</string>
+    <string name="textNegatif">Annuler</string>
+    <string name="textNeutre">Changer couleur</string>
+    <string name="reponsePositive">Vous devez remplir tout les champs</string>
+    <string name="reponseNegative">NON ENVOYE</string>
+    <string name="textBOK">OK</string>
+    <string name="textRetour">Retour</string>
+    <string name="tcall">Appeler ce Numéro</string>
+
+</resources>
